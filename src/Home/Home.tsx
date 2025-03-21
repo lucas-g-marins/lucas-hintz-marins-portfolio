@@ -4,9 +4,8 @@ import Footer from "../components/Footer/Footer";
 import { useEffect } from "react";
 
 function Home() {
-  const sections = document.querySelectorAll("section");
-
   const addMovement = function () {
+    const sections = document.querySelectorAll("section");
     const topViewport = window.pageYOffset;
     const midViewport = topViewport + window.innerHeight / 2;
 
