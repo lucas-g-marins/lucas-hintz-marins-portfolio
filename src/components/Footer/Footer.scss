@@ -1,18 +1,28 @@
 .footer {
   width: 100%;
-  //   position: absolute;
-  //   bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding-top: 8rem;
+
+  &__title {
+    font-family: "VGRosalia";
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  &__buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   &__button {
     background-color: #fff;
     margin: 1rem;
     text-align: center;
     padding: 0.75rem 1rem;
-    font-family: "VGRosalia";
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.1rem;
     border-radius: 2rem;
     display: flex;
     align-items: center;

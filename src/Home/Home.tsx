@@ -6,6 +6,7 @@ import { useEffect } from "react";
 function Home() {
   const addMovement = function () {
     const sections = document.querySelectorAll("section");
+    const bodyTag = document.querySelector("body");
     const topViewport = window.pageYOffset;
     const midViewport = topViewport + window.innerHeight / 2;
 
@@ -38,6 +39,14 @@ function Home() {
         content.style.top = `${contentDist}px`;
         content.style.transform = `rotate(${-1 * rotation}deg)`;
       }
+
+      // check background colour
+      if (distanceToSection > -100) {
+        const dataBackground = section.getAttribute("data-background");
+        if (bodyTag) {
+          bodyTag.style.backgroundColor = dataBackground || "#f0f5ff";
+        }
+      }
     });
   };
 
@@ -68,7 +77,7 @@ function Home() {
           </a>
         </div>
       </section>
-      <section className="project project--reverse">
+      <section className="project project--reverse" data-background="#F0FEFF">
         <img src="./map-preview.png" className="project__image" />
         <div>
           <h2 className="project__description">
@@ -80,7 +89,7 @@ function Home() {
           </a>
         </div>
       </section>
-      <section className="project">
+      <section className="project" data-background="#F4F0FF">
         <img src="./guest-preview.png" className="project__image" />
         <div>
           <h2 className="project__description">
@@ -95,7 +104,7 @@ function Home() {
           </a>
         </div>
       </section>
-      <section className="project project--reverse">
+      <section className="project project--reverse" data-background="#F0FAFF">
         <img src="./ac-gathering-preview.png" className="project__image" />
         <div>
           <h2 className="project__description">
