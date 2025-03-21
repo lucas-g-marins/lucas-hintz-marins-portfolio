@@ -1,0 +1,17 @@
+@use "./fonts";
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  margin: 240px auto 150px auto;
+  background-color: #f0f5ff;
+  max-width: 1200px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline #2d3748;
+  }
+}

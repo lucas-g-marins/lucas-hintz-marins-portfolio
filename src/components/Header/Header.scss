@@ -1,0 +1,48 @@
+@use "../../styles/partials/global";
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+
+  &__scrolled {
+    h2 {
+      opacity: 0;
+    }
+    img {
+      width: 5rem;
+    }
+  }
+
+  &__content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+  }
+
+  &__logo {
+    width: 6rem;
+    border-radius: 50%;
+    margin-bottom: 0.25rem;
+    transition: width 0.6s;
+  }
+
+  &__title {
+    font-family: "VGRosalia";
+    font-size: 1.75rem;
+    margin: 0;
+    color: #334155;
+    text-align: center;
+    transition: opacity 0.6s;
+  }
+}

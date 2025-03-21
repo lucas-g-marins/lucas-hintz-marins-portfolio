@@ -1,0 +1,35 @@
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // margin: 9rem 0;
+  height: 75vh;
+
+  &--reverse {
+    flex-direction: row-reverse;
+  }
+
+  div {
+    position: relative;
+  }
+
+  &__title {
+    font-family: "VGRosalia";
+    font-size: 2.5rem;
+    color: #2d3748;
+  }
+
+  &__image {
+    width: 50%;
+    border-radius: 2rem;
+    margin: 0 2rem;
+    position: relative;
+  }
+
+  &__description {
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #334155;
+  }
+}
