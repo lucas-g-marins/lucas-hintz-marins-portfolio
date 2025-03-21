@@ -44,7 +44,7 @@ function Home() {
 
   useEffect(() => {
     addMovement();
-  });
+  }, []);
 
   document.addEventListener("scroll", function () {
     addMovement();
