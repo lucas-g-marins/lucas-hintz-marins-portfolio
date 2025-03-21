@@ -18,7 +18,7 @@ function Header() {
     <header className={headerClass}>
       <div className="header__content-container">
         <img
-          src="./notion-face-beard.png"
+          src="./face-glasses.png"
           className="header__logo"
           alt="lucas marins face"
         />
