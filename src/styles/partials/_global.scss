@@ -1,5 +1,24 @@
 @use "./fonts";
 
+// breakpoints
+@mixin mobile {
+  @media screen and (max-width: 1000px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: 1280px) {
+    @content;
+  }
+}
+
 body {
   overflow-x: hidden;
   margin: 0;
@@ -7,6 +26,11 @@ body {
   background-color: #f0f5ff;
   max-width: 1200px;
   position: relative;
+
+  @include mobile {
+    max-width: 100vw;
+    margin: 150px auto;
+  }
 }
 
 a {

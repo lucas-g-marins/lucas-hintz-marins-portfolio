@@ -12,6 +12,11 @@
   align-items: center;
   z-index: 10;
 
+  @include global.mobile {
+    padding: 1rem;
+    width: 95vw;
+  }
+
   &__scrolled {
     h2 {
       opacity: 0;

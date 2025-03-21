@@ -1,3 +1,5 @@
+@use "../styles/partials/global";
+
 .project {
   display: flex;
   justify-content: center;
@@ -5,8 +7,17 @@
   // margin: 9rem 0;
   height: 75vh;
 
+  @include global.mobile {
+    flex-direction: column;
+    height: 100vh;
+  }
+
   &--reverse {
     flex-direction: row-reverse;
+
+    @include global.mobile {
+      flex-direction: column;
+    }
   }
 
   div {
@@ -24,6 +35,10 @@
     border-radius: 2rem;
     margin: 0 2rem;
     position: relative;
+
+    @include global.mobile {
+      width: 90%;
+    }
   }
 
   &__description {
