@@ -75,6 +75,16 @@ function Home() {
           <a href="https://prayer-library.ca" target="_blank">
             <p className="project__title">Prayer Library</p>
           </a>
+          <h2 className="project__description">Tech Stack:</h2>
+          <div className="project__tech-stack">
+            <img className="project__tech-icon" src="./React-icon.svg.png" />
+            <img className="project__tech-icon" src="./expo-logo.png" />
+            <img
+              className="project__tech-icon"
+              src="./supabase-logo-icon.png"
+            />
+            <img className="project__tech-icon" src="./icons8-nodejs-48.png" />
+          </div>
         </div>
       </section>
       <section className="project project--reverse" data-background="#F0FAFF">
@@ -84,10 +94,16 @@ function Home() {
           <a href="https://kitmine.shop">
             <p className="project__title">kit mine</p>
           </a>
+          <h2 className="project__description">Tech Stack:</h2>
+          <div className="project__tech-stack">
+            <img className="project__tech-icon" src="./wordpress-log.webp" />
+            <img className="project__tech-icon" src="./php-logo.png" />
+            <img className="project__tech-icon" src="./flywheel-logo.png" />
+          </div>
         </div>
       </section>
       <section className="project" data-background="#F0FEFF">
-        <img src="./map-preview.png" className="project__image" />
+        <img src="./madeforthis-preview.png" className="project__image" />
         <div>
           <h2 className="project__description">
             Canada wide map of high schools where users can sign up to pray for
@@ -96,6 +112,17 @@ function Home() {
           <a href="https://map.alphacanada.org" target="_blank">
             <p className="project__title">High School Prayer Map</p>
           </a>
+          <h2 className="project__description">Tech Stack:</h2>
+          <div className="project__tech-stack">
+            <img className="project__tech-icon" src="./React-icon.svg.png" />
+            <img className="project__tech-icon" src="./Typescript.png" />
+            <img
+              className="project__tech-icon"
+              src="./supabase-logo-icon.png"
+            />
+            <img className="project__tech-icon" src="./icons8-nodejs-48.png" />
+            <img className="project__tech-icon" src="./tailwind-logo.png" />
+          </div>
         </div>
       </section>
       <section className="project project--reverse" data-background="#F4F0FF">
@@ -111,6 +138,12 @@ function Home() {
           >
             <p className="project__title">Guest invitation page</p>
           </a>
+          <h2 className="project__description">Tech Stack:</h2>
+          <div className="project__tech-stack">
+            <img className="project__tech-icon" src="./React-icon.svg.png" />
+            <img className="project__tech-icon" src="./tailwind-logo.png" />
+            <img className="project__tech-icon" src="./icons8-nodejs-48.png" />
+          </div>
         </div>
       </section>
       <Footer />

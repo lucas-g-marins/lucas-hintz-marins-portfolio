@@ -49,4 +49,14 @@
     font-style: normal;
     color: #334155;
   }
+
+  &__tech-icon {
+    width: auto;
+    height: 3rem;
+  }
+
+  &__tech-stack {
+    display: flex;
+    gap: 3rem;
+  }
 }
