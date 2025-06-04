@@ -18,7 +18,7 @@ function Header() {
     <header className={headerClass}>
       <div className="header__content-container">
         <img
-          src="./face-glasses.png"
+          src="./lucas-notion.png"
           className="header__logo"
           alt="lucas marins face"
         />

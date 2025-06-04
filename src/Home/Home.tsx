@@ -77,7 +77,16 @@ function Home() {
           </a>
         </div>
       </section>
-      <section className="project project--reverse" data-background="#F0FEFF">
+      <section className="project project--reverse" data-background="#F0FAFF">
+        <img src="./kitmine-preview.png" className="project__image" />
+        <div>
+          <h2 className="project__description">Playful e-commerce site. </h2>
+          <a href="https://kitmine.shop">
+            <p className="project__title">kit mine</p>
+          </a>
+        </div>
+      </section>
+      <section className="project" data-background="#F0FEFF">
         <img src="./map-preview.png" className="project__image" />
         <div>
           <h2 className="project__description">
@@ -89,7 +98,7 @@ function Home() {
           </a>
         </div>
       </section>
-      <section className="project" data-background="#F4F0FF">
+      <section className="project project--reverse" data-background="#F4F0FF">
         <img src="./guest-preview.png" className="project__image" />
         <div>
           <h2 className="project__description">
@@ -101,17 +110,6 @@ function Home() {
             target="_blank"
           >
             <p className="project__title">Guest invitation page</p>
-          </a>
-        </div>
-      </section>
-      <section className="project project--reverse" data-background="#F0FAFF">
-        <img src="./ac-gathering-preview.png" className="project__image" />
-        <div>
-          <h2 className="project__description">
-            Engaging and fun website to display various events.{" "}
-          </h2>
-          <a href="https://gathering.alphacanada.org">
-            <p className="project__title">Alpha Canada Gathering</p>
           </a>
         </div>
       </section>
